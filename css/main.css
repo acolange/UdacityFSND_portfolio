@@ -1,45 +1,40 @@
 @import url(http://weloveiconfonts.com/api/?family=zocial);
 
 * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    box-sizing: border-box;
-    font-family: 'Raleway', Arial;
-    font-weight: 300;
-}
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Raleway", Arial;
+  font-weight: 300; }
 
 body {
-    background: #f9f9f9;
-}
+  background: #f9f9f9; }
 
 hr {
-    border-bottom: 3px #685044 solid;
-}
+  border-bottom: 3px #685044 solid; }
 
-h1, h2, h3, h4, h5, h6 {
-    color: #3a405a;
-}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #3a405a; }
 
 a {
-    text-decoration: none;
-}
+  text-decoration: none; }
+  a p {
+    font-size: 1.5em; }
 
-a p {
-    font-size: 1.5em;
-}
+header {
+  height: 10%; }
 
 .projects h2 {
-    border-bottom: 2px #685044 solid;
-    padding: 0 0 8px;
-}
+  border-bottom: 2px #685044 solid;
+  padding: 0 0 8px; }
 
 [class*="zocial-"]:before {
-    font-family: 'zocial', sans-serif;
-}
-
-#header-row {
-    height: 10%;
-}
+  font-family: "zocial", sans-serif; }
 
 /*# sourceMappingURL=main.css.map */

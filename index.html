@@ -2,20 +2,19 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/bootstrap_3_3_6.min.css">
     <link rel="stylesheet" href="./css/main.css">
-    <link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
-    <script src="./bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet" type="text/css">
+
     <title>Udacity Full Stack Nanodegree Portfolio</title>
 </head>
 
 <body>
     <div class="container">
-        <div id="header-row" class="row">
+        <header class="row">
             <div class="logo col-xs-4">
                 <h1 class="zocial-buffer"></h1>
                 <!-- TODO: Make more awesome logo.  Match from personal page -->
@@ -24,23 +23,23 @@
                 <h1>A.J. Colangelo</h1>
                 <h3>Linux Fangirl and Code Captain</h3>
             </div>
-        </div>
+        </header>
         <hr>
-        <div id="profile-pic" class="row">
+        <section id="profile-pic" class="row">
             <picture>
                 <source srcset="http://lorempixel.com/768/300/city" media="(max-width: 768px)">
                 <source srcset="http://lorempixel.com/500/200/city" media="(max-width: 550px)">
                 <source srcset="http://lorempixel.com/1170/450/city">
-                <img src="http://lorempixel.com/1170/450/city" alt="" class="img-responsive">
+                <img src="http://lorempixel.com/1170/450/city" alt="Picture of a city" class="img-responsive">
             </picture>
-        </div>
+        </section>
         <div class="row">
             <div class="projects">
                 <div class="col-md-12">
                     <h2>Projects</h2>
                 </div>
-                <div>
-                  <!-- TODO: Make pictures better resolution once on a better monitor -->
+                <main>
+                    <!-- TODO: Make pictures better resolution once on a better monitor -->
                     <div class="project col-sm-6 col-md-4 text-center">
                         <img src="./img/personalsite-750x480-med.png" alt="My Personal Site" class="img-responsive">
                         <h3>Personal Site</h3>
@@ -69,11 +68,12 @@
                             <p>Coming Soon!</p>
                         </a>
                     </div>
-                </div>
+                </main>
             </div>
         </div>
     </div>
-
+    <script src="./bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
 </body>
 
 </html>
