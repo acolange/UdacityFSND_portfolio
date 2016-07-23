@@ -1,0 +1,51 @@
+$brown: #685044;
+$darkblue: #3a405a;
+$lightgrey: #f9f9f9;
+
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Raleway', Arial;
+    font-weight: 300;
+}
+
+body {
+    background: $lightgrey;
+}
+
+hr {
+    border-bottom: 3px $brown solid;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: $darkblue;
+}
+
+a {
+    text-decoration: none;
+    p {
+        font-size: 1.5em;
+    }
+}
+
+.projects h2 {
+    border-bottom: 2px $brown solid;
+    padding: 0 0 8px;
+}
+
+[class*="zocial-"]:before {
+    font-family: 'zocial', sans-serif;
+}
+
+#header-row {
+    height: 10%;
+}

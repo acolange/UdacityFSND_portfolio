@@ -1,0 +1,20 @@
+{
+  "name": "Project_Portfolio",
+  "description": "A portfolio site to display the work done in the Udacity Full Stack Web Developer Nanodegree",
+  "main": "index.js",
+  "authors": [
+    "A.J. Colangelo"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "webdev",
+    "js",
+    "css",
+    "node"
+  ],
+  "homepage": "https://github.com/acolange/UdacityFSND",
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "font-awesome": "fontawesome#^4.6.3"
+  }
+}
